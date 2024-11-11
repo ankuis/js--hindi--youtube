@@ -18,3 +18,18 @@ const gameName = new String("ankuac")
 
 console.log(gameName.charAt(5))
 console.log(gameName.indexOf('a'))
+
+const newString = gameName.substring(0, 6)
+console.log(newString)
+
+const anotheString = gameName.slice(-8, 4)
+console.log(anotheString)
+
+const newStringOne =  "    hitesh   "
+console.log(newStringOne)
+console.log(newStringOne.trim())
+
+const url = "https://anku.com/anku%20kumar"
+console.log(url.replace('%20', '-'))
+
+console.log(gameName.split('-'))
